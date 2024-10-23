@@ -1,3 +1,11 @@
+@font-face {
+    font-family: airport;
+    src: url(../font/Airport.ttf);
+}
+@font-face {
+    font-family: any;
+    src: url(../font/OKScU8ig.ttf);
+}
 body{
     margin: 0;
     padding: 0;
@@ -17,7 +25,10 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4rem;
+    font-size: 5rem;
+    transform: rotate(-4deg);
+    text-shadow: 1px 1px 1px #7FFFD4, 2px 3px 3px #008080;
+    font-family: airport;
 }
 .container{
     flex-grow: 1;
@@ -33,6 +44,7 @@ nav>ul{
 }
 nav>ul li{
     display: block;
+    font-family: any;
 }
 footer{
     height: 35px;
